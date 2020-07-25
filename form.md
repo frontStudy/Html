@@ -58,4 +58,25 @@
 * 'checked'를 해주면 default값으로 선택되어있는 것을 지정 가능 
 + <img src="https://github.com/frontStudy/img/blob/master/radio%26checkbox.PNG" width=200px height=180px><br/> <br/>
 ## Button
+```
+<form action="http://localhost/form.php">
+        <input type="text">
+        <input type="submit" value="전송">
+        <input type="button" value="버튼" onclick="alert('hello world')">
+        <input type="reset">
+```
+* 'alert('hello world')'부분은 JavaScript
++ <img src="https://github.com/frontStudy/img/blob/master/button.PNG" width=140px height=70px><br/> <br/>
+## 숨겨진 정보
+```
+<input type="hidden" name=" " value=" ">
+```
+* 어떠한 정보를 'submit'을 통해 입력받은 정보와 함께 서버로 전송하고 싶지만, 그 어떠한 정보를<br/>굳이 UI에 보여주고 싶지 않을 때 사용하는 코드<br/> <br/>
+## Label
+```
+<label for id_txt>text:</label>
+<input id_txt type="text" name="id" value="default value">
+```
+* 항목을 지정해서 lable화 가능
+* radio나checkbox를 체크할 때 글자 부분을 클릭해도 체크가 되게끔 설정가능<br> <br/>
 

@@ -1,13 +1,14 @@
 # Form 
 ## form 기본 양식
 ```
-<form action="주소">
+<form action="주소" method =" ">
     <p> 아이디: <input type="text" name="id" value="아이디를 입력하시오"></p>
     <p> 비밀번호 : <input type="password" name="pw" value="비밀번호를 입력하시오"></p>
     <input type="submit">
 </form>
 ```
 * form action에는 'submit'을 통해 제출한 정보가 보내지는 주소가 들어감
+* method를 지정하지 않거나 method="get"을 쓰면 제출한 정보가 URL상에 나타나고<br/>method="post"를 쓰면 제출한 정보가 URL상에 나타나지 
 * input type이 'text'면 입력하는 정보가 화면상에 나타나고, 'password'면 모자이크 처리
 + <img src="https://github.com/frontStudy/img/blob/master/form_id%26pw.PNG" width=200px height=100px>
   <br/>
@@ -79,4 +80,6 @@
 ```
 * 항목을 지정해서 lable화 가능
 * radio나checkbox를 체크할 때 글자 부분을 클릭해도 체크가 되게끔 설정가능<br> <br/>
+
+## File Upload
 

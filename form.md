@@ -82,4 +82,9 @@
 * radio나checkbox를 체크할 때 글자 부분을 클릭해도 체크가 되게끔 설정가능<br> <br/>
 
 ## File Upload
-
+```
+<form action="주소" method="post" enctype="multipart/form-data">
+     <input type="file" name=" ">
+     <input type="submit">
+</form>
+```

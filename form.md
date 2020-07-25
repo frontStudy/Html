@@ -12,7 +12,7 @@
 + <img src="https://github.com/frontStudy/img/blob/master/form_id%26pw.PNG" width=200px height=100px>
   <br/>
 * 'name'에는 제출하는 정보의 분류(이름)이 들어감
-* 'value'에는 입력 전 default값을 프로그래머가 지정 가능
+* 'value'에는 입력 전 default값을 프로그래머가 지정 가능<br/> <br/>
 ## text 입력
 ```
 <p>textarea :

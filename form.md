@@ -20,7 +20,7 @@
 </p>
 ```
 * text창 생성, 'cols'는 text창의 행 길이, 'rows'는 열 길이 
-* default value에는 아무것도 입력하지 않았을 때 나오는 문자를 프로그래머가 지정 가능
+* default value에는 아무것도 입력하지 않았을 때 나오는 문자를 프로그래머가 지정 가능<br/> <br/>
 ## 항목 선택
 ```
 <form action="주소"
@@ -35,3 +35,25 @@
 * 'name'에는 선택된 정보가 어떤 이름으로 제출될 지 정함
 * 'option value'는 각 옵션을 컴퓨터가 어떤 정보로 받아들일 지 정함
 + <img src="https://github.com/frontStudy/img/blob/master/select.PNG" width=115px height=70px>
+* 'select name='뒤에 multiple을 추가하여 다중선택을 ctrl키로 가능하게 할 수는 있으나, 체크박스 사용 권장<br/> <br/>
+## Radio&Checkbox
+```
+<form action="주소">
+            <p>
+                <h1>단일선택</h1>
+                1번 : <input type="radio" name="n" value="1">
+                2번 : <input type="radio" name="n" value="2" checked>
+                3번 : <input type="radio" name="n" value="3">
+            </p>
+            <p>
+                <h1>다중선택</h1>
+                병우 : <input type="checkbox" name="name" value="fuck">
+                최재 : <input type="checkbox" name="name" value="nice" checked>
+                찬욱 : <input type="checkbox" name="name" value="study worm" checked>
+            </p>
+            <input type="submit">
+        </form>
+```
+* radio는 'name'별로 하나만 선택, checkbox는 'name'별로 다중선택 가능
+* 'checked'를 해주면 default값으로 선택되어있는 것을 지정 가능 
++ <img src="https://github.com/frontStudy/img/blob/master/radio%26checkbox.PNG" width=200px height=180px>

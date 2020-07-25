@@ -34,4 +34,4 @@
 ```
 * 'name'에는 선택된 정보가 어떤 이름으로 제출될 지 정함
 * 'option value'는 각 옵션을 컴퓨터가 어떤 정보로 받아들일 지 정함
-+ <img src="https://github.com/frontStudy/img/blob/master/select.PNG" width=100px height=50px>
++ <img src="https://github.com/frontStudy/img/blob/master/select.PNG" width=115px height=70px>

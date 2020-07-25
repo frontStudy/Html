@@ -9,4 +9,4 @@
 ```
 * form action에는 'submit'을 통해 제출한 정보가 보내지는 주소가 들어감
 * input type이 'text'면 입력하는 정보가 화면상에 나타나고, 'password'면 모자이크 처리
-![coding](./img/form_id&pw.PNG)
+<img src="https://github.com/frontStudy/img/blob/master/form_id%26pw.PNG" width=200px height=100px>

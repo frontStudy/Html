@@ -56,4 +56,6 @@
 ```
 * radio는 'name'별로 하나만 선택, checkbox는 'name'별로 다중선택 가능
 * 'checked'를 해주면 default값으로 선택되어있는 것을 지정 가능 
-+ <img src="https://github.com/frontStudy/img/blob/master/radio%26checkbox.PNG" width=200px height=180px>
++ <img src="https://github.com/frontStudy/img/blob/master/radio%26checkbox.PNG" width=200px height=180px><br/> <br/>
+## Button
+
